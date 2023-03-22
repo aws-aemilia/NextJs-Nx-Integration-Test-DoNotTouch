@@ -1,3 +1,7 @@
+
+import { MyLib } from '@with-nx/my-lib'
+
+
 export function Index() {
   /*
    * Replace the elements below with your own.
@@ -13,6 +17,8 @@ export function Index() {
             Welcome app 👋
           </h1>
         </div>
+
+        <MyLib />
 
         <div id="hero" className="rounded">
           <div className="text-container">
