@@ -6,7 +6,7 @@ export interface MyLibProps {}
 export function MyLib(props: MyLibProps) {
   return (
     <div className={styles['container']}>
-      <h1>Nx monorepo</h1>
+      <h1>monorepo-Nx</h1>
     </div>
   );
 }
